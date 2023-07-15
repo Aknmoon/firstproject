@@ -105,3 +105,25 @@ li{
   padding: 10px 0;
   text-align: center;
 }
+
+
+/* screen  */
+@media screen and (max-width: 600px){
+  
+  #mainvisual img{
+    height: calc(100vh - 60px);
+  }
+  #about .content{
+    flex-direction: column;
+  }
+  #about img{
+    margin-right: 0;
+  }
+  #melborne ul{
+    flex-direction: column;
+  }
+  #melborne li{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
